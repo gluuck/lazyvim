@@ -9,10 +9,10 @@ return {
         python = { "black" },
         sql = { "sleek" },
         eruby = { "erb_format" }, -- Changed to erb_format
-        slim = { "prettierd" },
         css = { "prettierd" },
         vue = { "prettierd" },
       },
     },
   },
 }
+

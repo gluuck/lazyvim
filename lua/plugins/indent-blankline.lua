@@ -1,6 +1,13 @@
 
 return {
-  "lukas-reineke/indent-blankline.nvim",
-  main = "ibl",
-  opts = {},
+  {
+    "folke/snacks.nvim",
+    priority = 1000,
+    lazy = false,
+    opts = {
+      indent = {
+        enabled = true,
+      },
+    },
+  },
 }

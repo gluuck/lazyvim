@@ -5,6 +5,7 @@ return {
       javascript = { "eslint" },
       go = { "golangci-lint" },
       python = { "ruff" },
+      sql = { "sqlfluff" },
     },
   },
 }
